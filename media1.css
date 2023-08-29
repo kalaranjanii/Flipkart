@@ -1,0 +1,337 @@
+
+@media(max-width:768px){
+    .head{
+        width: 768px;
+        height: 50px;
+        background-color: blue;
+        position: fixed;
+    }
+    .flipkart{
+        margin-top: 5px;
+        margin-left: 60px;
+        /* border: 1px solid gray; */
+        width: 80px;    
+    }
+    .flipkart a h2{
+        font-size: 20px;
+    }
+    .flipkart a p{
+        font-size: 13px;
+    }
+    .search{
+        margin-top: -37px;
+        margin-left: 150px;
+    }
+    .search input{
+        border: 1px solid white;
+        width: 250px;
+        height: 25px;
+        font-size: 12px;
+    }
+    .login{
+        border: 1px solid gray;
+        width: 90px;
+        height: 15px; 
+        background-color: white;
+        margin-left: 420px;
+        margin-top: -27px;
+        text-align: center;
+        /* padding-top: 9px; */
+    }
+    .login a{
+        color: blue;
+        font-size: 13px;
+        margin-top: -5px;
+    }
+    .login table{
+        /* border: 1px solid white; */
+        margin-left: -50px;
+        margin-top: 20px;
+    }
+    
+    table tr td{
+        display: flex;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.413);
+        background-color: white;
+        width: 150px;
+        height: 5px;
+        margin-top: 20px;
+        text-align: left;
+    }
+    td{
+        color: black;
+        padding-bottom: 10px;
+    }
+    table{
+        background-color: white;
+    }
+    table tr td{
+        display: none;
+    }
+    .login a:hover table tr td{
+        display: block;
+    }
+    .one{
+        margin-left: 550px;
+        margin-top: -25px;
+    }
+    .one a{
+        color: white;
+        font-size: 15px;
+    }
+    .two{
+        margin-left: 675px;
+        margin-top: -18px;
+    }
+    .two a{
+        color: white;
+        font-size: 15px;
+    }
+    .two table{
+        margin-top: 22px;
+        width: 100px;
+        background-color: white;
+    }
+    .two a table tr td{
+        margin-top: 10px;
+        width: 150px;
+        color: black;
+        font-size: 13px;
+    }
+    
+    .two a:hover table tr td{
+        display: block;
+    }
+    .three{
+        margin-left: 730px;
+        margin-top: -39px;
+    }
+    .three a{
+        color: white;
+        font-size: 15px;
+    }
+    .fa-cart-shopping{
+        color: yellow;
+        font-size: 10px;
+        margin-left: -10px;
+    }
+        /* images */
+
+.images{
+    /* border: 1px solid black ; */
+    /* width: 100%; */
+    height: 130px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(1,1fr);
+}
+img{
+    width: 60px;
+    margin-left: 10px;
+}
+.img1{
+    /* border: 1px solid red; */
+    width: 75px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: -3px;
+    
+}
+.images p{
+    font-size: 10px;
+    margin-top: 15px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+.images .img1:hover{
+    color: blue;
+}
+.mainimg img{
+    width:100% ;
+    height:200px ;
+    margin-left: -0px;
+}
+/* first line image */
+.first{
+    /* border: 1px solid black; */
+    height: 230px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    padding-left: 7px;
+}
+.one1{
+    border: 3px solid white;
+    width: 110px;
+    height: 180px;
+    margin-top: 20px;
+}
+.one1 h2{
+    margin-top: 40px;
+    margin-left: -10px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+.one1 a{
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+    margin-left: 20px;
+    font-size: 10px;
+}
+.one1 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.one1 .onee{
+    width: 110px;
+    height: 180px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.one2 img{
+    width: 80px;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.one2 img:hover{
+    width:85px ;
+    height:110px ;
+}
+.one2 .a{
+    /* border: 1px solid black; */
+    width: 130px;
+    height: 95px;
+    text-align: center;
+    margin-left:-10px;
+    margin-top: 10px;
+    line-height: 25px;
+    font-size: 14px;
+}
+.one2 .a a{
+    color: black;
+}
+.one2 .a .B{
+    color: green;
+}.one2 .a .C{
+    color: gray;
+}
+.second{
+    /* border: 1px solid black; */
+    height: 230px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);   
+}
+/* third line image */
+.third{
+    /* border: 1px solid black; */
+    height: 230px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);   
+}
+/* four line image */
+.four{
+    /* border: 1px solid black; */
+    height: 230px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);   
+}
+/* footer */
+footer{
+    margin-top: 20px;
+    border: 1px solid rgb(4, 4, 33);
+    background-color:rgb(12, 12, 93) ;
+    height: 400px;
+    width: 765px;
+}
+footer .fone{
+    display: grid;
+    grid-template-columns:repeat(6,1fr);
+    column-gap: 10px;
+    color: white;
+    border-bottom: 1px solid gray;
+    height: 350px;
+}
+.fone h3{
+    color: gray;
+    font-size: 10px;
+    margin-left: -25px;
+}
+.fone li{
+    font-size: 10px;
+    margin-left: -25px;
+}
+.fone1{
+    display: grid;
+    grid-template-columns:repeat(6,1fr);
+    column-gap: 10px;
+    border-right: 1px solid gray;
+    height: 200px;
+    width: 450px;
+    margin-top: 50px;
+}
+.ftwo{
+    /* border: 1px solid red; */
+    height: 265px;
+    width: 80px;
+    margin-top: 0px;
+    line-height: 30px;
+}
+.ftwo a{
+    color: white;
+}
+.fthree{
+    /* border: 1px solid red;
+    height: 265px;
+    width: 80px; */
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.fthree .para1{
+    /* border: 1px solid red; */
+    width: 200px;
+    margin-top: 10px;
+    margin-left: -50px;
+    font-size: 10px;
+}
+.fthree .para2{
+    /* border: 1px solid red; */
+    width: 200px;
+    margin-left: -280px;
+    margin-top: 10px;
+    font-size: 10px;
+}
+.fthree .fthree3{
+   margin-left: -290px;
+   margin-top: 80px;
+}
+.fthree .ffthree3{
+    margin-left: -60px;
+ }
+.fthree h3{
+    margin-left: -50px;
+}
+.ffour{
+    margin-top: 20px;
+}
+.ffour a{
+    color: white;
+    padding: 20px;
+    font-size: 15px;
+}
+.ffour p{
+    margin-left: 500px;
+    margin-top: -20px;
+    color: white;
+}
+
+}

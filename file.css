@@ -1,0 +1,339 @@
+
+*{
+    margin: 0%;
+    border: 0%;
+    list-style: none;
+}
+body{
+    background-color: rgba(128, 128, 128, 0.089);
+}
+.head{
+    width: 100%;
+    height: 60px;
+    background-color: blue;
+    position: fixed;
+    top: 0%;
+}
+a{
+    text-decoration: none;
+}
+.flipkart{
+    /* border: 1px solid black; */
+    width: 100px;
+     margin-left: 150px;
+    margin-top: 5px;
+} 
+.flipkart a h2{
+    color: white;
+}
+.flipkart a p{
+    color: yellow;
+}
+.search{
+    margin-left:270px ;
+    margin-top: -40px;
+}
+.search input{
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 500px;
+    height: 35px;
+}
+/* icons */
+.fa-magnifying-glass{
+    margin-left: -30px;
+    color: blue;
+}
+.fa-user{
+    padding-right: 10px;
+    color: blue;
+}
+.fa-circle-plus{
+    padding-right: 10px;
+    color: blue;
+}
+.fa-arrow-up-z-a{
+    padding-right: 10px;
+    color: blue;
+}
+.fa-heart{
+    padding-right: 10px;
+    color: blue;
+}
+
+.login{
+    border: 1px solid gray;
+    border-radius: 5px;
+     width: 130px;
+    height: 20px; 
+    background-color: white;
+    margin-left: 800px;
+    margin-top: -35px;
+    /* text-align: center; */
+    padding-top: 10px;
+}
+.login a p{
+    color: blue;
+    margin-top: -5px;
+    text-align: center;
+}
+table tr td{
+    display: flex;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.162);
+    background-color: white;
+    width: 200px;
+    height: 30px;
+}
+.login table{
+    margin-top: 20px;
+}
+tr{
+    margin-top: 10px;
+}
+td{
+    color: black;
+    background-color: white;
+    padding-top: 10px;
+}
+table tr td{
+    display: none;
+}
+.login a:hover table tr td{
+    display: block;
+}
+.one{
+    margin-left: 950px;
+    margin-top: -30px;
+}
+.one a{
+    color: white;
+    font-size: 20px;
+}
+.two{
+    margin-left: 1120px;
+    margin-top: -22px;
+}
+.two a{
+    color: white;
+    font-size: 20px;
+}
+.two table{
+    margin-top: 20px;
+    margin-left: -65px;
+}
+.two a table tr td{
+    width: 150px;
+    color: black;
+    font-size: 15px;
+}
+.two a:hover table tr td{
+    display: block;
+}
+.three{
+    margin-left: 1200px;
+    margin-top: -42px;
+}
+.three a{
+    color: white;
+    font-size: 20px;
+}
+.fa-cart-shopping{
+    color: yellow;
+}
+/* images */
+.images{
+    /* border: 5px solid gray ; */
+    background-color: white;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.254) ;
+    /* width: 100%; */
+    height: 150px;
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(1,1fr);
+    padding-left: 5px;
+}
+
+img{
+    width: 80px;
+    margin-left: 20px;
+}
+.img1{
+    /* border: 1px solid black; */
+    background-color: white;
+    width: 130px;
+    height: 120px;
+    margin-top: 20px;
+}
+.images p{
+    font-size: 15px;
+    margin-top: 15px;
+    text-align: center;
+}
+.images .img1:hover{
+    color: blue;
+}
+.mainimg img{
+    width:100% ;
+    height:300px ;
+    margin-left: -0px;
+    margin-top: 15px;
+}
+/* first line image */
+.first{
+    /* border: 1px solid black; */
+    background-color: white;
+    /* width: 100%; */
+    height: 310px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    margin-top: 10px;
+}
+.one1{
+    border: 3px solid white;
+    width: 220px;
+    height: 290px;
+}
+.one1 h2{
+    margin-top: 40px;
+    margin-left: -20px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+.one1 a{
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+    margin-left: 40px;
+    padding: 10px;  
+}
+.one1 .onee{
+    width: 220px;
+    height: 290px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.one2 img{
+    width: 150px;
+    height: 200px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.one2 img:hover{
+    width:160px ;
+    height:210px ;
+}
+.one2 .a{
+    /* border: 1px solid black; */
+    width: 200px;
+    height: 70px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    line-height: 25px;
+}
+.one2 .a a{
+    color: black;
+}
+.one2 .a .B{
+    color: green;
+}.one2 .a .C{
+    color: gray;
+}
+/* second line image */
+.second{
+    /* border: 1px solid black; */
+    background-color: white;
+    height: 310px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);   
+}
+/* third line image */
+.third{
+    /* border: 1px solid black; */
+    background-color: white;
+    height: 310px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);   
+}
+/* four line image */
+.four{
+    /* border: 1px solid black; */
+    background-color: white;
+    height: 310px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);   
+}
+/* footer */
+footer{
+    margin-top: 20px;
+    /* border: 1px solid rgb(4, 4, 33); */
+    background-color:rgb(12, 12, 93) ;
+    height: 450px;
+    width: 100%;
+}
+footer .fone{
+    display: grid;
+    grid-template-columns:repeat(6,1fr);
+    column-gap: 10px;
+    color: white;
+    border-bottom: 1px solid gray;
+    height: 350px;
+}
+.fone h3{
+    color: gray;
+    font-size: 15px;
+    margin-left: -20px;
+}
+.fone li{
+    font-size: 13px;
+    margin-left: -20px;
+}
+.fone1{
+    display: grid;
+    grid-template-columns:repeat(6,1fr);
+    column-gap: 10px;
+        border-right: 1px solid gray;
+    height: 200px;
+    width: 750px;
+    margin-top: 50px;
+}
+.ftwo{
+    /* border: 1px solid red; */
+    height: 265px;
+    width: 130px;
+    margin-top: 0px;
+    line-height: 30px;
+}
+.ftwo a{
+    color: white;
+}
+.fthree{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.fthree p{
+    /* border: 1px solid red; */
+    width: 250px;
+    margin-top: 10px;
+    margin-left: -50px;
+}
+.fthree h3{
+    margin-left: -50px;
+}
+.ffour{
+    margin-top: 20px;
+}
+.ffour a{
+    color: white;
+    padding: 40px;
+}
+.ffour p{
+    margin-left: 700px;
+    margin-top: -20px;
+    color: white;
+}
